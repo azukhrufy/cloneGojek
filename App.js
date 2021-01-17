@@ -22,9 +22,9 @@ const App = () => {
   return (
     <View style={{backgroundColor: 'pink', flex: 1}}>
       <View style={{flex: 1, backgroundColor: 'white'}}>
+        {/* search bar */}
         <View
           style={{
-            flex: 1,
             flexDirection: 'row',
             marginHorizontal: 17,
             marginVertical: 17,
@@ -42,10 +42,10 @@ const App = () => {
                 paddingRight: 20,
               }}
             />
-            <Image 
+            <Image
               source={require('./icon/search.png')}
               style={{
-                position:'absolute',
+                position: 'absolute',
                 top: 7,
                 left: 8,
               }}
@@ -56,6 +56,99 @@ const App = () => {
               source={require('./icon/promo.png')}
               style={{marginTop: 6, marginLeft: 16}}
             />
+          </View>
+        </View>
+        {/* Gopay Section */}
+        <View>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              marginHorizontal: 18,
+              paddingHorizontal: 10,
+              paddingVertical: 16,
+              backgroundColor: '#2C5FB8',
+              borderTopLeftRadius: 4,
+              borderTopRightRadius: 4,
+            }}>
+            <Image source={require('./icon/gopay.png')} />
+            <Text
+              style={{
+                fontFamily: 'roboto',
+                fontSize: 17,
+                color: 'white',
+                fontWeight: '700',
+              }}>
+              Rp.50.456
+            </Text>
+          </View>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-around',
+              marginHorizontal: 18,
+              paddingTop: 20,
+              paddingBottom: 14,
+              backgroundColor: '#2F65BD',
+              borderBottomLeftRadius: 4,
+              borderBottomRightRadius: 4,
+            }}>
+            <View
+              style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+              <Image source={require('./icon/pay.png')} />
+              <Text
+                style={{
+                  fontSize: 13,
+                  fontFamily: 'roboto',
+                  color: 'white',
+                  marginTop: 10,
+                  fontWeight: 'bold'
+                }}>
+                Pay
+              </Text>
+            </View>
+            <View
+              style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+              <Image source={require('./icon/nearby.png')} />
+              <Text
+                style={{
+                  fontSize: 13,
+                  fontFamily: 'roboto',
+                  color: 'white',
+                  marginTop: 10,
+                  fontWeight: 'bold'
+                }}>
+                Nearby
+              </Text>
+            </View>
+            <View
+              style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+              <Image source={require('./icon/topup.png')} />
+              <Text
+                style={{
+                  fontSize: 13,
+                  fontFamily: 'roboto',
+                  color: 'white',
+                  marginTop: 10,
+                  fontWeight: 'bold'
+                }}>
+                Top Up
+              </Text>
+            </View>
+            <View
+              style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+              <Image source={require('./icon/more.png')} />
+              <Text
+                style={{
+                  fontSize: 13,
+                  fontFamily: 'roboto',
+                  color: 'white',
+                  marginTop: 10,
+                  fontWeight: 'bold'
+                }}>
+                More
+              </Text>
+            </View>
           </View>
         </View>
       </View>
