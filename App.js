@@ -102,7 +102,7 @@ const App = () => {
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
-                  fontWeight: 'bold'
+                  fontWeight: 'bold',
                 }}>
                 Pay
               </Text>
@@ -116,7 +116,7 @@ const App = () => {
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
-                  fontWeight: 'bold'
+                  fontWeight: 'bold',
                 }}>
                 Nearby
               </Text>
@@ -130,7 +130,7 @@ const App = () => {
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
-                  fontWeight: 'bold'
+                  fontWeight: 'bold',
                 }}>
                 Top Up
               </Text>
@@ -144,15 +144,208 @@ const App = () => {
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
-                  fontWeight: 'bold'
+                  fontWeight: 'bold',
                 }}>
                 More
               </Text>
             </View>
           </View>
         </View>
-      </View>
+        {/* Main Feature */}
+        <View
+          style={{
+            marginHorizontal: 18,
+            marginVertical: 20,
+            flexDirection: 'row',
+          }}>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-ride.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              GO-RIDE
+            </Text>
+          </View>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-car.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              GO-CAR
+            </Text>
+          </View>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-bluebird.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              GO-BLUEBIRD
+            </Text>
+          </View>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-send.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              GO-SEND
+            </Text>
+          </View>
+        </View>
 
+        {/* second row for main menu */}
+        <View
+          style={{
+            marginHorizontal: 18,
+            flexDirection: 'row',
+          }}>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-deals.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              GO-DEALS
+            </Text>
+          </View>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-pulsa.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              GO-PULSA
+            </Text>
+          </View>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-food.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              GO-FOOD
+            </Text>
+          </View>
+          <View
+            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View
+              style={{
+                borderWidth: 0.5,
+                padding: 8,
+                borderColor: '#c4c4c4',
+                borderRadius: 10,
+              }}>
+              <Image source={require('./icon/go-more.png')} />
+            </View>
+            <Text
+              style={{
+                fontSize: 13,
+                fontFamily: 'roboto',
+                color: 'black',
+                marginTop: 4,
+                fontWeight: 'bold',
+              }}>
+              MORE
+            </Text>
+          </View>
+        </View>
+
+        
+      </View>
       {/* bagian bottom navigation */}
       <View
         style={{backgroundColor: 'white', height: 54, flexDirection: 'row'}}>
