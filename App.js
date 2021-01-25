@@ -37,7 +37,7 @@ const App = () => {
                 borderColor: '#c4c4c4',
                 borderRadius: 50,
                 height: 40,
-                fontSize: 13,
+                fontSize: 11,
                 paddingLeft: 45,
                 paddingRight: 20,
               }}
@@ -98,7 +98,7 @@ const App = () => {
               <Image source={require('./icon/pay.png')} />
               <Text
                 style={{
-                  fontSize: 13,
+                  fontSize: 11,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
@@ -112,7 +112,7 @@ const App = () => {
               <Image source={require('./icon/nearby.png')} />
               <Text
                 style={{
-                  fontSize: 13,
+                  fontSize: 11,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
@@ -126,7 +126,7 @@ const App = () => {
               <Image source={require('./icon/topup.png')} />
               <Text
                 style={{
-                  fontSize: 13,
+                  fontSize: 11,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
@@ -140,7 +140,7 @@ const App = () => {
               <Image source={require('./icon/more.png')} />
               <Text
                 style={{
-                  fontSize: 13,
+                  fontSize: 11,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
@@ -155,7 +155,7 @@ const App = () => {
         <View
           style={{
             marginHorizontal: 18,
-            marginVertical: 20,
+            marginVertical: 18,
             flexDirection: 'row',
           }}>
           <View
@@ -165,16 +165,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-ride.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               GO-RIDE
@@ -187,16 +187,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-car.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               GO-CAR
@@ -209,16 +209,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-bluebird.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               GO-BLUEBIRD
@@ -231,16 +231,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-send.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               GO-SEND
@@ -261,16 +261,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-deals.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               GO-DEALS
@@ -283,16 +283,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-pulsa.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               GO-PULSA
@@ -305,16 +305,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-food.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               GO-FOOD
@@ -327,16 +327,16 @@ const App = () => {
                 borderWidth: 0.5,
                 padding: 8,
                 borderColor: '#c4c4c4',
-                borderRadius: 10,
+                borderRadius: 18,
               }}>
               <Image source={require('./icon/go-more.png')} />
             </View>
             <Text
               style={{
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: 'roboto',
                 color: 'black',
-                marginTop: 4,
+                marginTop: 6,
                 fontWeight: 'bold',
               }}>
               MORE
@@ -344,7 +344,8 @@ const App = () => {
           </View>
         </View>
 
-        
+
+
       </View>
       {/* bagian bottom navigation */}
       <View
