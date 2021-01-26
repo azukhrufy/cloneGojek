@@ -98,7 +98,7 @@ const App = () => {
               <Image source={require('./icon/pay.png')} />
               <Text
                 style={{
-                  fontSize: 11,
+                  fontSize: 13,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
@@ -112,7 +112,7 @@ const App = () => {
               <Image source={require('./icon/nearby.png')} />
               <Text
                 style={{
-                  fontSize: 11,
+                  fontSize: 13,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
@@ -126,7 +126,7 @@ const App = () => {
               <Image source={require('./icon/topup.png')} />
               <Text
                 style={{
-                  fontSize: 11,
+                  fontSize: 13,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
@@ -140,7 +140,7 @@ const App = () => {
               <Image source={require('./icon/more.png')} />
               <Text
                 style={{
-                  fontSize: 11,
+                  fontSize: 13,
                   fontFamily: 'roboto',
                   color: 'white',
                   marginTop: 10,
